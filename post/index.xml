@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on 孙建的个人博客</title>
     <link>https://surprise3465.github.io/myblog/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on 孙建的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 11 Aug 2022 13:52:47 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 11 Aug 2022 16:52:14 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第一篇</title>
+      <title>忒修斯之船与文艺复兴</title>
+      <link>https://surprise3465.github.io/myblog/post/20220811/</link>
+      <pubDate>Thu, 11 Aug 2022 16:52:14 +0800</pubDate>
+      
+      <guid>https://surprise3465.github.io/myblog/post/20220811/</guid>
+      <description>今天想到两个搞笑的概念 公元1世纪的时候普鲁塔克提出一个问题：如果忒修斯的船上的木头被逐渐替换，直到所有的木头都不是原来的木头，那这艘船还是原</description>
+    </item>
+    
+    <item>
+      <title>第一篇博客</title>
       <link>https://surprise3465.github.io/myblog/post/first/</link>
       <pubDate>Thu, 11 Aug 2022 13:52:47 +0800</pubDate>
       
       <guid>https://surprise3465.github.io/myblog/post/first/</guid>
-      <description>第一篇博客测试</description>
+      <description>第一篇博客测试 我以前经常在朋友圈大放阙词，终于周围的人都受不了了，说影响太不好。 其实只要不对号入座，有什么可担心的呢。比如我虚构个前公司往事</description>
     </item>
     
   </channel>
