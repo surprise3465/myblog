@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/light.css' />
     <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/dark.css' />
     <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/syntax.css' />
-    <title>前事不忘，后事之师 - 孙建的个人博客</title>
+    <title>这个功能需要多久做完？ - 孙建的个人博客</title>
     
     <link rel="icon" type="image/x-icon" href='/images/github.png'>
     
@@ -18,17 +18,17 @@
 
     
     <meta name="description"
-  content="踏坑总结" />
+  content="别问这个功能需要多久做完？ 今日暴论：不要总去问基层员工，这个功能需要多久做完。如果问了得不到想要的结果，也不要暴跳如雷。 既然是暴论，那就是没" />
 <meta name="keywords"
-  content=', ' />
+  content='软件工程, 工作分解结构, WBS' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://surprise3465.github.io/myblog/post/20220812/" />
+<link rel="canonical" href="https://surprise3465.github.io/myblog/post/20220815/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="前事不忘，后事之师 - 孙建的个人博客" />
+<meta name="twitter:title" content="这个功能需要多久做完？ - 孙建的个人博客" />
 <meta name="twitter:description"
-  content="踏坑总结" />
+  content="别问这个功能需要多久做完？ 今日暴论：不要总去问基层员工，这个功能需要多久做完。如果问了得不到想要的结果，也不要暴跳如雷。 既然是暴论，那就是没" />
 <meta name="twitter:site" content="https://surprise3465.github.io/myblog/" />
 <meta name="twitter:creator" content="孙建" />
 <meta name="twitter:image"
@@ -36,17 +36,17 @@
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="前事不忘，后事之师 - 孙建的个人博客">
+<meta property="og:title" content="这个功能需要多久做完？ - 孙建的个人博客">
 <meta property="og:description"
-  content="踏坑总结" />
-<meta property="og:url" content="https://surprise3465.github.io/myblog/post/20220812/" />
-<meta property="og:site_name" content="前事不忘，后事之师" />
+  content="别问这个功能需要多久做完？ 今日暴论：不要总去问基层员工，这个功能需要多久做完。如果问了得不到想要的结果，也不要暴跳如雷。 既然是暴论，那就是没" />
+<meta property="og:url" content="https://surprise3465.github.io/myblog/post/20220815/" />
+<meta property="og:site_name" content="这个功能需要多久做完？" />
 <meta property="og:image"
   content="https://surprise3465.github.io/myblog/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
-<meta property="article:published_time" content="2022-08-12 19:19:02 &#43;0800 CST" />
+<meta property="article:published_time" content="2022-08-15 17:12:06 &#43;0800 CST" />
 
 
 
@@ -141,18 +141,18 @@
                   <span class="author">
                     <a href="https://surprise3465.github.io/myblog/">孙建</a></span><span
                     class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
-                      href="https://surprise3465.github.io/myblog/post/20220812/">前事不忘，后事之师</a></strong>
+                      href="https://surprise3465.github.io/myblog/post/20220815/">这个功能需要多久做完？</a></strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Fri, 12 Aug 2022 19:19:02 &#43;0800"
+                  Created <relative-time datetime="Mon, 15 Aug 2022 17:12:06 &#43;0800"
                     class="no-wrap">
-                    Fri, 12 Aug 2022 19:19:02 &#43;0800</relative-time>
+                    Mon, 15 Aug 2022 17:12:06 &#43;0800</relative-time>
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Mon, 15 Aug 2022 17:13:15 &#43;0800"
+                  Modified <relative-time datetime="Tue, 16 Aug 2022 17:55:53 &#43;0800"
                     class="no-wrap">
-                    Mon, 15 Aug 2022 17:13:15 &#43;0800</relative-time>
+                    Tue, 16 Aug 2022 17:55:53 &#43;0800</relative-time>
                   
                 </div>
               </div>
@@ -182,7 +182,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      1070 Words
+                      1341 Words
                     
 
                   </div>
@@ -194,18 +194,22 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><h2 id="今日随便写点啥">今日随便写点啥</h2>
-<p>  今天客户端程序突然搜不到设备了，看了一眼Log，Arp返回错误，下意识的去改网关，然后好使了。其实自己不懂网络，也说不清是怎么突然想到的。</p>
-<p>  之前还有两个别人的问题，一个是C++程序收数据异常崩溃，怎么打Log都定位不到问题，我第一时间猜内存对象存储了过大的数据崩掉了，果然如此。</p>
-<p>  还有某一天在客户电脑上，我们写的Wifi控制模块突然不管用了。在查代码, 查日志之前, 我又下意识搜索了一下Win10系统更新日志，果然在没什么人访问的官网上，有人反映了最近一次更新后Wifi热点模块失效，Windows工程师随后给了解决方案，这次又节约了排查时间了。</p>
-<p>  看似解决问题快，其实还是被坑多了的后遗症。</p>
-<p>  在老东家那时候，动不动就有人找我说&quot;孙工啊，工具又不好使了&quot;。然后发现至少50%的问题都是Ip填错了，掩码填错了，网关填错了。</p>
-<p>  这时候想起自己曾经深恶痛绝的日式繁琐文档的可贵之处了，它不会告诉你网关设成192.168.1.1，而是告诉你点这个按钮，会出现什么界面，再点这个按钮，会出现什么界面。看到这个第三个框没，填成跟文档一样的数。</p>
-<p>  年轻的时候我非常自负，有写这文档的功夫能写多少代码了，随后的岁月打了我的脸。比如今天，由于之前配置客户端没留文档，我们把上一台电脑的坑又踩了一遍，浪费的时间足以写一个迷你的go服务器了。</p>
-<p>  还有内存暴涨问题，我职业生涯的第一站就是去东软汽电写一个数据转发程序，然后每次联调的时候都崩在我这里，简直颜面扫地，我打遍Log也查不出来。还是我导师告诉我，你那个低效的生产消费模型，每次收15M数据发10M，慢慢的你的缓存队列就暴涨了，然后在惊动了系统的情况下悄无声息的就被kill了，由于联调阶段大部分都是对接Bug，所以年轻的你是不会想到这里的。最后用一手共享内存加固定缓冲解决问题，令我佩服的惊为天人。当年导师每次发工资就去买奶粉，现在我也到了这个年纪了，开始给别人讲蓄水池问题了，真是岁月不饶人。</p>
-<p>  最后那个问题，在海天，突然在现场的某台电脑上，文件下载不好使了。后来发现这个小伙用的是Win10，还开启自动更新，这在Xp和Win7横行的铁路系统十分难得。在浪费了大量时间排查代码之后，我们才发现是Win10的某次更新把默认开启的Samba服务改为默认关了。</p>
-<p>  数年后我告诉同事们先查Win10更新记录时大家都莫名其妙，只有我想起了那个曾经被坑的不堪回首的一周。</p>
-<p>  有时候我就在想，看似年轻员工比老员工更能加班，但是有经验的老员工会尽量不让自己落入不得不加班的境地，无论靠经验丰富，代码娴熟，或者单纯跑的快。</p>
+                <article class="markdown-body entry-content container-lg"><h2 id="别问这个功能需要多久做完">别问这个功能需要多久做完？</h2>
+<p>  今日暴论：不要总去问基层员工，这个功能需要多久做完。如果问了得不到想要的结果，也不要暴跳如雷。</p>
+<p>  既然是暴论，那就是没什么道理，很容易引起争议，单纯就是发泄情绪。直接放结论吧，<strong>如果领导真的关心一个功能什么时候能做完，需要多久，请去问项目经理或开发组长。</strong></p>
+<p>  设想一个场景吧，客户打电话/发微信谈到一个功能，或者反应一个Bug。/<em>这里没提邮件，因为很多客户Low到不用这种延时性质并需要组织文字的通讯手段</em>/。于是领导/经理直接杀到一线开发人员那里，开免提，放语音，点大图，然后问出经典问题:这个需要多久完事？</p>
+<p>  然后小开发一脸懵逼又战战兢兢，首先前因后果就不太清楚。等听明白咋回事，立刻盘算着手头的活，再加上现场这个，在心里对优先级来一场冒泡排序；随后迅速来一个极大似然估计，猜个完工时间 /*是猜的，根据测不准原理，不要觉得自己算的时间很科学*/。然后再盘算一下，报的时间长了不行，看领导脸色有点不豫，时间短了也不行，干不完容易背锅。最后深吸一口气，用果断的口气说首先然后其次，综上我估计大约一周完事。领导比较满意，还是X工说话痛快，不像那个孙工，每次问多久完事都告诉我做起来才知道，就是不给个准信。</p>
+<p>  还是那句老笑话，由于不能拿狗做实验，很多人不认为软件工程是门科学。</p>
+<p>  我们年轻的时候都学过时间等于路程除以速度，那总的软件路程未知，解决问题的速度未知，算出来的时间有个屁用啊。我敢给，你敢信么？</p>
+<p>  基层员工的工程管理本来就难做，很少有人是怠速运转的 /*怠速工作请推荐给我*/。很多人同时负责几个项目，或许接活的时候基本都能评估新工作对自己手头的活的影响。但是，很少有人能从全局考虑，自己是否处在关键路径上，自己的变动是否会对全局有影响。这实际上只有广义上的项目经理才有权去给时间。</p>
+<p>  其次是功能难度，听完一个功能描述，就能给出准确的时间，这其实非常的需要水准。很多人给出的时间不准，要么考虑不到天外飞仙的Bug，要么考虑不到可以参照的家底，要么低估了上游产出的延迟，要么高估了自己开发的效率。前期摸鱼飞弹后期疯狂加班，压哨完工看说我估计一周多准，那后续改Bug的时间再算上看看呢？实际上只有架构师或成熟的开发组长才有权给速度。</p>
+<p>  更难做的是预期管理。领导表面上说就是想了解个大致完工情况，心里有个数就行，没啥别的想法。但是当员工真的给你个时间，你就不可避免的去估算多了还是少了。你表面上没有期望，但是就像抛硬币的瞬间往往暴漏了内心真实的选择，估算的那一刻起，也不自觉的将时间长短与员工能力隐形挂钩，然后没想到的是这个时间因素是如此的不靠谱，建立在其上的期望更是无稽之谈。</p>
+<p>  所以当面临一个新功能的时候，最理想情况还是项目经理跟开发组长约定时间并布置。他们理应对项目理解更全面，对功能把握更深刻，手里有资源可以调度抗风险。而基层员工只能自己硬抗，多报时间是个非常有风险的做法。</p>
+<p>  当然以上都是理想状况，实际上我作为基层员工，也不指望真空中的球形鸡有什么帮助。基本上我参照市场上跟我同等工资人员的解决问题速度，估一个稍短的时间。为什么估更短的时间，是为了证明我能力比工资强一点点，而且估时间长了容易加倍摸鱼。</p>
+<p>  要是玩脱了怎么办，很简单，按照如下步骤</p>
+<pre><code>$ 做完整版 -&gt; 做核心框架 -&gt; 做可演示UI -&gt; 辞职
+</code></pre>
+<p>  依次执行即可</p>
 </article>
               </div>
             </div>
