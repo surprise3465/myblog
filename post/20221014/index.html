@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="application/javascript" src='https://surprise3465.github.io/myblog/js/theme-mode.js'></script>
+    <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/frameworks.min.css' />
+    <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/github.min.css' />
+    <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/github-style.css' />
+    <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/light.css' />
+    <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/dark.css' />
+    <link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/syntax.css' />
+    <title>本质归因法解决项目延期问题 - 孙建的个人博客</title>
+    
+    <link rel="icon" type="image/x-icon" href='/images/github.png'>
+    
+    <meta name="theme-color" content="#1e2327">
+
+    
+    <meta name="description"
+  content="本质归因法 咨询行业中经常使用一种名为RCA（Root Cause Analysis）的方法，翻译过来亦称为“根本原因解析法/根本原因分析法”，是一种用于" />
+<meta name="keywords"
+  content='本质归因法, 分解图' />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://surprise3465.github.io/myblog/post/20221014/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="本质归因法解决项目延期问题 - 孙建的个人博客" />
+<meta name="twitter:description"
+  content="本质归因法 咨询行业中经常使用一种名为RCA（Root Cause Analysis）的方法，翻译过来亦称为“根本原因解析法/根本原因分析法”，是一种用于" />
+<meta name="twitter:site" content="https://surprise3465.github.io/myblog/" />
+<meta name="twitter:creator" content="孙建" />
+<meta name="twitter:image"
+  content="https://surprise3465.github.io/myblog/">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="本质归因法解决项目延期问题 - 孙建的个人博客">
+<meta property="og:description"
+  content="本质归因法 咨询行业中经常使用一种名为RCA（Root Cause Analysis）的方法，翻译过来亦称为“根本原因解析法/根本原因分析法”，是一种用于" />
+<meta property="og:url" content="https://surprise3465.github.io/myblog/post/20221014/" />
+<meta property="og:site_name" content="本质归因法解决项目延期问题" />
+<meta property="og:image"
+  content="https://surprise3465.github.io/myblog/">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2022-10-14 13:53:06 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <div style="position: relative">
+  <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
+    <div class="Header-item mobile-none" style="margin-top: -4px; margin-bottom: -4px;">
+      <a class="Header-link" href="https://surprise3465.github.io/myblog/">
+        <svg class="octicon" height="32" viewBox="0 0 16 16" version="1.1" width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item d-md-none">
+      <button class="Header-link btn-link js-details-target" type="button"
+        onclick="document.querySelector('#header-search').style.display = document.querySelector('#header-search').style.display == 'none'? 'block': 'none'">
+        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24">
+          <path fill-rule="evenodd"
+            d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div style="display: none;" id="header-search"
+      class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+      <div
+        class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
+        <div class="position-relative">
+          <form target="_blank" action="https://www.google.com/search" accept-charset="UTF-8" method="get"
+            autocomplete="off">
+            <label
+              class="Header-search-label form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+              <input type="text"
+                class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+                name="q" value="" placeholder="Search" autocomplete="off">
+              <input type="hidden" name="q" value="site:https://surprise3465.github.io/myblog/">
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+      <a class="Header-link " href="https://surprise3465.github.io/myblog/">
+        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+          width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item" style="margin-right: 0;">
+      <a href="javascript:void(0)" class="Header-link no-select" onclick="switchTheme()">
+        <svg style="fill: var(--color-profile-color-modes-toggle-moon);" class="no-select" viewBox="0 0 16 16"
+          version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M4.52208 7.71754C7.5782 7.71754 10.0557 5.24006 10.0557 2.18394C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961C9.95801 1.07727 10.3495 0.771159 10.6474 0.99992C12.1153 2.12716 13.0615 3.89999 13.0615 5.89383C13.0615 9.29958 10.3006 12.0605 6.89485 12.0605C3.95334 12.0605 1.49286 10.001 0.876728 7.24527C0.794841 6.87902 1.23668 6.65289 1.55321 6.85451C2.41106 7.40095 3.4296 7.71754 4.52208 7.71754Z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </header>
+</div>
+  
+<div>
+  <main>
+    <div class="gisthead pagehead bg-gray-light pb-0 pt-3 mb-4">
+      <div class="px-0">
+        <div class="mb-3 d-flex px-3 px-md-3 px-lg-5">
+          <div class="flex-auto min-width-0 width-fit mr-3">
+            <div class="d-flex">
+              <div class="d-none d-md-block">
+                <a class="avatar mr-2 flex-shrink-0" href="https://surprise3465.github.io/myblog/">
+                  <img class=" avatar-user"
+                    src="https://surprise3465.github.io/myblog/images/avatar.png"
+                    width="32" height="32"></a>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="break-word f3 text-normal mb-md-0 mb-1">
+                  <span class="author">
+                    <a href="https://surprise3465.github.io/myblog/">孙建</a></span><span
+                    class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
+                      href="https://surprise3465.github.io/myblog/post/20221014/">本质归因法解决项目延期问题</a></strong>
+                </h1>
+                <div class="note m-0">
+                  Created <relative-time datetime="Fri, 14 Oct 2022 13:53:06 &#43;0800"
+                    class="no-wrap">
+                    Fri, 14 Oct 2022 13:53:06 &#43;0800</relative-time>
+
+                  
+                  <span class="file-info-divider"></span>
+                  Modified <relative-time datetime="Fri, 14 Oct 2022 15:21:09 &#43;0800"
+                    class="no-wrap">
+                    Fri, 14 Oct 2022 15:21:09 &#43;0800</relative-time>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg px-3 new-discussion-timeline">
+      <div class="repository-content gist-content">
+        <div>
+          <div class="js-gist-file-update-container js-task-list-container file-box">
+            <div id="file-pytest" class="file my-2">
+              <div id="post-header" class="file-header d-flex flex-md-items-center flex-items-start sticky-header" style="z-index: 2">
+                <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
+                  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                    
+                    <summary id="toc-toggle" onclick="clickToc()" class="btn btn-octicon m-0 mr-2 p-2">
+                      <svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered">
+                        <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
+                      </svg>
+                    </summary>
+                    <details-menu class="SelectMenu" id="toc-details" style="display: none;">
+                      <div class="SelectMenu-modal rounded-3 mt-1" style="max-height: 340px;">
+                        <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" id="toc-list">
+                        </div>
+                      </div>
+                    </details-menu>
+                      1554 Words
+                    
+
+                  </div>
+                  <div class="file-actions flex-order-2 pt-0">
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="Box-body px-5 pb-5" style="z-index: 1">
+                <article class="markdown-body entry-content container-lg"><h3 id="本质归因法">本质归因法</h3>
+<p>  咨询行业中经常使用一种名为RCA（Root Cause Analysis）的方法，翻译过来亦称为“根本原因解析法/根本原因分析法”，是一种用于分析失败的程序、技术问题、意外事件等所导致任务未完成根本原因的方法。</p>
+<p>  当然我们小程序员们往往不用搞什么流程画什么图啥的，用个意思就行。我习惯于画个多叉树，把根问题的可能直接原因列成叶子，再对每个直接原因进行推导，直到难以继续分解为止。</p>
+<p>  举个例子，某公司2020年1月1日大版本延期了，要开会找出原因。注意以下场景纯属虚构。</p>
+<p>  按老板的意思，你们这批程序员不行，都开除掉重新招算了。即使远程会议上看不见大家的脸，想必也是喜上眉梢，要感谢老板送来买年货的钱，顺便跳个槽涨个薪。当然负责人的思路还是清醒的，要我们回去正常总结一下。</p>
+<p>  其实RCA非常适合分析项目延期问题。不妨就拿这个例子来说，表层现象就是项目延期，直接原因是大家没有及时完成原定任务。</p>
+<p>  那老板说开除大家不很对么？当然不是，因为再分解一下就会发现，不是所有人都没完成任务，后端声称接口已完成，是前端没有完成。</p>
+<p>  于是老板又跳出来，那就是前端不行，换前端！我们无视之，继续分析可能原因，前端没完成接口，是接口给的晚？还是工作太多？还是前端怠工了？</p>
+<p>  首先接口给的不晚，因为我们是个虚构公司，接口不是由后端先给出，而是由项目经理根据需求提前约定字段双方实现，避免接口依赖空等。工作太多也不可能，因为我们是个虚构公司，按照合理的工作结构分解(WBS)和关键路径分析(CPA)，避免了关键路径过长导致项目延期。</p>
+<p>  随后老板再次跳出来！那一定是前端工作能力或态度不行！我亲眼看见他上班时候摸了下手机！以后没收手机开发！&ndash;其实这是RCA常见的问题，当我们对目标问题层层分解，达到一个符合领导期望的解释的时候，往往就会止步于此，完成归因。很不幸，指标不治本的时候居多，不要得到一个解释就满意了，RCA的精髓就是不断本质归因。</p>
+<p>  继续分析前端小伙。首先不存在工作能力不行问题，因为完成过同等难度问题。那是工作态度不行？当然小伙确实手机摸鱼现象，但是，因为我们是一个虚构公司，我们不以现象而是以实际成果来评价工作产出。</p>
+<p>  继续分析前端小伙的每周产出，经过评估，每周产出完全达标。等等不对！既然工作结构分解那里保证了每周正常工作足以完成项目，那延期是怎么回事？再细看看，这个首页美化任务两周是怎么回事？怎么不记得大版本里还有这个玩意？</p>
+<p>  这时产品经理反应过来，哦，我看这个首页效果不错，就让前端加一下，还有两个模块，竞品有了我们也得有啊。哦嚯，就是你小子差点帮助我们脱离苦海，啊不对，害得我们差点被开啊？</p>
+<p>  这也不能归因于产品经理，优化产品和分析竞品都是本职工作，问题在于不能随随便便就在菜里加料。那就继续分解，回到前端小伙，为啥让你加你就加啊。前端小伙儿一脸无辜，他说加就加呗，每周五个模块干啥不是干呢，再说他力主要加功能，上次开会都跟后端大哥拍桌子了。</p>
+<p>  随着层层分解，逐渐接近问题的本质了，因为我们是一家真实的，啊不对，虚构的公司。我们，没有，项目经理！任务规划很随意，排期很随意，加个功能很随意，眼看完不成了也没人调整规划，全靠领导一言堂说干就干，依仗于老程序员们强大的自驱力和经验，搞成这样已经很不容易了。</p>
+<p>  话说回来，虽然问题能层层分解，但是不是分解到最底层才解决最好。比如一个函数工作不正常了，层层分解最后发现是C++编译器有问题，能在这一层解决么？老老实实返回上一层取消O3优化。RCA至少是避免在非常浅的层次去分析解决问题，减少指标不治本的现象，也有助于锻炼深度思考。</p>
+<p>  再回到这个不恰当的例子，本质上是老板没招项目经理，但是我们能在这一层解决问题么？很难的啦。最后我们规范了版本需求表，另外拆分出了OKR表放置产品经理的奇思妙想，等有余力的同学去完成。</p>
+</article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="https://utteranc.es/client.js"
+  repo="surprise3465/myblog"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+  </script>
+  
+</div>
+<script type="application/javascript" src='https://surprise3465.github.io/myblog/js/toc.js'></script>
+<link rel="stylesheet" href='https://surprise3465.github.io/myblog/css/toc.css' />
+
+
+  <div class="footer container-xl width-full p-responsive">
+  <div
+    class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="https://surprise3465.github.io/myblog/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24">
+        <path fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+        </path>
+      </svg>
+    </a>
+    <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      
+      <li class="mr-3 mr-lg-0">Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a></li>
+      
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+
+
+</div>
+</body>
+
+<script type="application/javascript" src="https://surprise3465.github.io/myblog/js/github-style.js"></script>
+
+
+
+
+</html>
