@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 孙建的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 18 Oct 2022 13:09:34 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 16:54:46 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>软件行业的利润</title>
+      <link>https://surprise3465.github.io/myblog/post/20221103/</link>
+      <pubDate>Thu, 03 Nov 2022 16:54:46 +0800</pubDate>
+      
+      <guid>https://surprise3465.github.io/myblog/post/20221103/</guid>
+      <description>软件行业的利润 《软件工程最佳实践》是我2021年度最推崇的书籍之一，即使50%的内容我还没看-因为它具体执行措施写的太详细了。我认为这本书最</description>
+    </item>
+    
     <item>
       <title>系统之美</title>
       <link>https://surprise3465.github.io/myblog/post/20221018/</link>
@@ -26,12 +35,12 @@
     </item>
     
     <item>
-      <title>技能树的剪枝</title>
+      <title>技术焦渴</title>
       <link>https://surprise3465.github.io/myblog/post/20221013/</link>
       <pubDate>Thu, 13 Oct 2022 18:00:00 +0800</pubDate>
       
       <guid>https://surprise3465.github.io/myblog/post/20221013/</guid>
-      <description>技能树的剪枝 年轻的时候，什么技术都想学一些，先做了Linux下的嵌入式C/C++编程，又去做Windows应用开发，用了一阵子MFC，又用Q</description>
+      <description>技术焦渴 年轻的时候，什么技术都想学一些，先做了Linux下的嵌入式C/C++编程，又去做Windows应用开发，用了一阵子MFC，又用Qt做</description>
     </item>
     
     <item>
