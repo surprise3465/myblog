@@ -6,7 +6,16 @@
     <description>Recent content on 孙建的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 09 Jan 2023 11:15:12 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 18:15:12 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>异常xml修复</title>
+      <link>https://surprise3465.github.io/myblog/post/20230809/</link>
+      <pubDate>Wed, 09 Aug 2023 18:15:12 +0800</pubDate>
+      
+      <guid>https://surprise3465.github.io/myblog/post/20230809/</guid>
+      <description>异常xml修复 今天邻居小伙遇到个问题，上游给的xml里带一些错误出现的未转义的&amp;lt;&amp;gt;符号，导致tinyxml解析出错。短时间没有什</description>
+    </item>
+    
     <item>
       <title>私司无业</title>
       <link>https://surprise3465.github.io/myblog/post/20230109/</link>
