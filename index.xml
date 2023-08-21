@@ -6,7 +6,34 @@
     <description>Recent content on 孙建的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Aug 2023 18:15:12 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Aug 2023 16:18:10 +0800</lastBuildDate><atom:link href="https://surprise3465.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>论绩效</title>
+      <link>https://surprise3465.github.io/myblog/post/20230814/</link>
+      <pubDate>Wed, 16 Aug 2023 16:18:10 +0800</pubDate>
+      
+      <guid>https://surprise3465.github.io/myblog/post/20230814/</guid>
+      <description>绩效评定 在RH工作的转折点就是秋冬季新版绩效规则的推行。首先震撼人心的指标就是每千行Bug数，这让同时写Cpp, C#, Python的我一时不知道</description>
+    </item>
+    
+    <item>
+      <title>论分组</title>
+      <link>https://surprise3465.github.io/myblog/post/20230813/</link>
+      <pubDate>Wed, 16 Aug 2023 16:17:41 +0800</pubDate>
+      
+      <guid>https://surprise3465.github.io/myblog/post/20230813/</guid>
+      <description>论分组 同样的在周五会议上，组长说我在接手别人交接任务时表现的很抗拒，这明显还是对我的方法论非常不熟，我一贯是活都可以接，但是态度也要表示，这</description>
+    </item>
+    
+    <item>
+      <title>一次工作安排的思考</title>
+      <link>https://surprise3465.github.io/myblog/post/20230812/</link>
+      <pubDate>Wed, 16 Aug 2023 16:17:11 +0800</pubDate>
+      
+      <guid>https://surprise3465.github.io/myblog/post/20230812/</guid>
+      <description>一次工作安排的感想 两周前某个星期二，有个添加XXX导出功能的任务落到了我的头上，大领导定了一周时间，当时座位上的我听到这个时间人都麻了，他可</description>
+    </item>
+    
     <item>
       <title>异常xml修复</title>
       <link>https://surprise3465.github.io/myblog/post/20230809/</link>
